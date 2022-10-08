@@ -6,6 +6,8 @@ import { Home, SportsEsports, ViewQuilt } from '@mui/icons-material';
 const menuItems = [
   { title: 'ホーム', path: '/', icon: <Home /> },
   { title: '基本的な操作', path: 'doc/control', icon: <SportsEsports /> },
+  { title: 'UE公式', path: 'https://www.unrealengine.com/ja', icon: <SportsEsports /> },
+  { title: 'マーケットプレイス', path: 'https://www.unrealengine.com/marketplace/ja/store', icon: <SportsEsports /> },
 ];
 
 const variants = {

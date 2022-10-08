@@ -41,7 +41,7 @@ const CardMenuItem = (props: CardMenuItemProps) => {
         onClick={() => {
           router.push(`/doc/${props.slug}`);
         }}
-        sx={{ width: '345px', height: '400px', backgroundColor: '#FEFFFE', borderRadius: '30px' }}
+        sx={{ width: '345px', height: '400px', backgroundColor: '#FEFFFE', borderRadius: '30px', cursor: 'pointer' }}
       >
         <CardMedia
           component='img'

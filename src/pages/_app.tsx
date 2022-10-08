@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [isOpen, toggleOpen] = useCycle(false, true);
   return (
     <ThemeProvider theme={theme}>
-      <motion.nav initial={false} animate={isOpen ? 'open' : 'closed'}>
+      <motion.nav initial={false} animate={isOpen ? 'open' : 'closed'} style={{ position: 'fixed' }}>
         <motion.div className='background' variants={sidebar} />
         <Navigation />
         <AppBar
@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           }}
         />
       </motion.nav>
-      <Box sx={{ padding: 5 }}>
+      <Box sx={{ padding: 5, paddingTop: '128px' }}>
         <Component {...pageProps} />
       </Box>
     </ThemeProvider>

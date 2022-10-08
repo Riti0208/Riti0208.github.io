@@ -2,7 +2,7 @@
 title: 'FPSゲームを作ろう'
 description: 'UnrealEngine5を使ってFPSゲームを作ります。'
 thumbPath: '/images/fps_game/thumb.png'
-date: '20221008'
+date: '20221009'
 tags: ['unreal engine']
 ---
 
@@ -10,7 +10,7 @@ tags: ['unreal engine']
 
 どんなものを作るか
 
-[https://youtu.be/s2za3yfE-74](https://youtu.be/s2za3yfE-74)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2za3yfE-74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 初期プロジェクト
 
